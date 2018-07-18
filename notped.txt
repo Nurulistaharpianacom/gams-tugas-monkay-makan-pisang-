@@ -1,0 +1,11 @@
+//tugas peracangan games //
+/// //
+//NAMA:NURUL ISTA HARPIANA//
+//NAMA:PERNDI GUNAWAN//
+//KLS :TIB/VI//
+// TEMPAT MENGABIL KODINGAN GAMES phaser-examples-master.//
+//background DI BUAT SENDIRI// 
+
+//TEMPAT MENGAMBIL MUSCIK SOUNDIMAGE.ORG//
+//TEMPAT MENGABIL GAMBAR MOYET :https://pixabay.com/p-304320/?no_redirect//
+//TEMPAT MENGAMBIL PISANG :http://www.gambarzoom.com/2015/10/gambar-kartun-buah-lucu-aneka-jenis-buah-buahan.html//
