@@ -19,15 +19,15 @@ gameState.load.prototype = {
     //paddle
     this.game.load.image('paddle', 'assets/paddle.png');
     //wall
-    this.game.load.image('wall', 'assets/wall.png');
+    this.game.load.image('wall', 'assets/');
     //brik
     this.game.load.image('brick', 'assets/pisang.png');
     //balle
     this.game.load.image('balle', 'assets/moki.png');
     //life
-    this.game.load.image('life', 'assets/life.png');
+    this.game.load.image('life', 'assets/');
     //arrow
-    this.game.load.image('arrow', 'assets/canon.png');
+    this.game.load.image('arrow', 'assets/');
     //lazer
     this.game.load.image('lazer', 'assets/lazer.png');
     //son balle une fois les briques toucher
@@ -67,13 +67,13 @@ gameState.main.prototype = {
     this.background.height = this.game.height;
     this.line = this.game.add.sprite(0, 0, 'line');
     //canon
-    this.arrow = this.game.add.sprite(250, 160, 'arrow');
+    this.arrow = this.game.add.sprite(250, 160, '');
     //this.game.physics.arcade.enable(this.arrow);
     //this.arrow.body.immovable = true;
     this.arrow.anchor.setTo(0.5, 0.5);
     //life
-    this.life = this.game.add.sprite(915, 360, 'life');
-    this.wall = this.game.add.sprite(210, 120, 'wall');
+    this.life = this.game.add.sprite(915, 360, '');
+    this.wall = this.game.add.sprite(210, 120, '');
     this.game.physics.arcade.enable(this.wall);
     this.wall.body.immovable = true;
     //paddle
